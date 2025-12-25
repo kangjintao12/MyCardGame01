@@ -16,12 +16,6 @@
     <Filter Include="src\Classes\configs">
       <UniqueIdentifier>{e01c99be-ff30-4f28-9af3-f7a5280e0efc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\Classes\configs\models">
-      <UniqueIdentifier>{04199498-8602-483b-9792-cef4bd529b3f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\Classes\configs\loaders">
-      <UniqueIdentifier>{47b02ee5-852a-4e27-a340-0267d4f94481}</UniqueIdentifier>
-    </Filter>
     <Filter Include="src\Classes\models">
       <UniqueIdentifier>{858cccfb-e2a3-4e9d-b438-a3a36689b000}</UniqueIdentifier>
     </Filter>
@@ -37,9 +31,6 @@
     <Filter Include="src\Classes\services">
       <UniqueIdentifier>{7a2a0304-9e95-431a-8fdc-7f82a31fe747}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\Classes\utils">
-      <UniqueIdentifier>{3a539b6a-f559-4743-99f3-d2b59a514634}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -48,8 +39,50 @@
     <ClCompile Include="..\Classes\AppDelegate.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="..\Classes\configs\LevelConfig.cpp">
+      <Filter>src\Classes\configs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controllers\GameController.cpp">
+      <Filter>src\Classes\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controllers\PlayFieldController.cpp">
+      <Filter>src\Classes\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controllers\StackController.cpp">
+      <Filter>src\Classes\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\managers\UndoManager.cpp">
+      <Filter>src\Classes\managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\models\CardModel.cpp">
+      <Filter>src\Classes\models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\models\GameModel.cpp">
+      <Filter>src\Classes\models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\models\PlayFieldModel.cpp">
+      <Filter>src\Classes\models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\models\StackModel.cpp">
+      <Filter>src\Classes\models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\models\UndoModel.cpp">
+      <Filter>src\Classes\models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\services\GameModelFromLevelGenerator.cpp">
+      <Filter>src\Classes\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\views\CardView.cpp">
+      <Filter>src\Classes\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\views\GameView.cpp">
+      <Filter>src\Classes\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\views\PlayFieldView.cpp">
+      <Filter>src\Classes\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\views\StackView.cpp">
+      <Filter>src\Classes\views</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -59,14 +92,50 @@
     <ClInclude Include="..\Classes\AppDelegate.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\HelloWorldScene.h">
-      <Filter>src</Filter>
+    <ClInclude Include="..\Classes\configs\LevelConfig.h">
+      <Filter>src\Classes\configs</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\configs\models\LevelConfig.h">
-      <Filter>src\Classes\configs\models</Filter>
+    <ClInclude Include="..\Classes\controllers\GameController.h">
+      <Filter>src\Classes\controllers</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\configs\loaders\LevelConfigLoader.h">
-      <Filter>src\Classes\configs\loaders</Filter>
+    <ClInclude Include="..\Classes\controllers\PlayFieldController.h">
+      <Filter>src\Classes\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controllers\StackController.h">
+      <Filter>src\Classes\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\managers\UndoManager.h">
+      <Filter>src\Classes\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\CardModel.h">
+      <Filter>src\Classes\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\GameModel.h">
+      <Filter>src\Classes\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\PlayFieldModel.h">
+      <Filter>src\Classes\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\StackModel.h">
+      <Filter>src\Classes\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\UndoModel.h">
+      <Filter>src\Classes\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\services\GameModelFromLevelGenerator.h">
+      <Filter>src\Classes\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\views\CardView.h">
+      <Filter>src\Classes\views</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\views\GameView.h">
+      <Filter>src\Classes\views</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\views\PlayFieldView.h">
+      <Filter>src\Classes\views</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\views\StackView.h">
+      <Filter>src\Classes\views</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
